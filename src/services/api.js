@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-    baseURL: 'http://technoprint-api.vercel.app/'
+    baseURL: 'https://technoprint-api.vercel.app/'
 })
 
 export const getKnifesAPI = {
