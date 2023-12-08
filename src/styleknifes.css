@@ -1,0 +1,166 @@
+body {
+  background-color: rgb(157, 224, 155);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.main{
+  margin: 20px auto 0;
+  width: 80%;
+  display: flex;
+}
+
+input[type='number'] {
+  width: 80px;
+}
+
+.right-column {
+  margin-left: 50px;
+}
+
+.left-column__width-height {
+  width: 400px;
+}
+
+.left-column__header {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(114, 163, 157, 0.616);
+  border-radius: 5px;
+}
+
+.left-column__header p, label {
+  margin: 5px 0px 5px 0px;
+}
+
+.left-column__width-height {
+  display: flex;  
+}
+
+.header-width, .header-height, .wrapper-number-knife {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-height {
+  margin-left: 10px;
+}
+
+.wrapper-number-knife {
+  background-color: rgba(86, 172, 162, 0.616);
+  border-radius: 1.5px;
+  box-shadow: 0 0 0 10px rgba(86, 172, 162, 0.616);
+}
+
+.calculate {
+  margin-top: 10px;
+}
+
+.margins-stream {
+  width: 70%;
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+.all-result {
+  margin-top: 15px;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 310px 90px 300px;
+  background-color: rgb(147, 209, 145);
+  border-radius: 5px;
+  position: relative;
+  top: -3px;
+  padding-top: 5px;
+  transition: all 0.5s;  
+}
+
+.result-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  /*
+  margin-top: 4px;
+  */
+  margin-bottom: 15px;
+  height: 320px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.search-size {
+  background-color: rgb(215, 255, 142);
+}
+
+.result-size {
+  background-color: rgb(123, 185, 170);
+  position: relative;
+  z-index: 2;
+  padding: 2px;
+  padding-left: 10px;
+  border-radius: 5px 5px 0 0;
+  transition: all 0.5s;
+}
+
+/*--------   roll up styles   ---------*/
+.result-wrapper--roll-up {
+  height: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.result--roll-up {
+  top: -325px;
+}
+
+.result-size--roll-up {
+  border-radius: 5px;
+}
+
+
+.result p {
+  height: 15px;
+  margin: 4px 0px 4px 0px;
+  padding: 4px 0px 4px 8px;
+}
+.result p:first-child {
+  margin-top: 10px;
+}
+
+.result p:nth-child(2n-1) {
+  background-color: rgb(126, 182, 124);
+}
+
+.material {
+  box-sizing: border-box;
+  border-left: 2px  dashed lightcoral;
+  border-right: 2px  dashed lightcoral;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+  flex-wrap: wrap;
+}
+
+.sticker {
+  box-sizing: border-box;
+  background-color: chocolate;
+}
+
+.img-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-knife {
+  object-fit: contain;
+}
+
+.copy {
+  margin: 10px 0 10px 0;
+}
+
